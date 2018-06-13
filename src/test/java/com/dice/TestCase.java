@@ -28,12 +28,12 @@ public class TestCase {
 
 		 String count = driver.findElement(By.id("posiCountMobileId")).getText();
 		 System.out.println(count);
-		// int i = Integer.parseInt(count);
-		// if (i > 0) {
-		// System.out.println("This search returned " + i + "in Washington,DC");
+		 int i = Integer.parseInt(count);
+		 if (i > 0) {
+		 System.out.println("This search returned " + i + "in Washington,DC");
 
-		// }else
-		// System.out.println("This search returned " + i + "in Washington,DC");
+		 }else
+		 System.out.println("This search returned " + i + "in Washington,DC");
 
 		String title = driver.getTitle();
 		System.out.println(title);
